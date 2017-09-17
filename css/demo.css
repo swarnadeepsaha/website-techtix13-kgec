@@ -1,0 +1,20 @@
+
+body{
+   
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+	font-size: 13px;
+}
+.container{
+	/*margin-top:18%;*/
+	
+	background:url(images/c.jpg);
+	position:relative;
+}
+#auto{
+	 width:100%;}
+
+.content{
+	/*margin-top:30%;*/
+	position:relative;
+}
+

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+#demo{
+	 width:100%; }
+
+.ft_name a:link{
+	text-decoration:none;
+	color: #0D0D0D;
+	}
+	.ft_name a:visited{
+	text-decoration:none;
+	color: #0D0D0D;
+	}
+	.ft_name a:active{
+	text-decoration:none;
+	color: #0D0D0D;
+	}
+
+
+
+.ft_name a:hover { 
+color: #CC6600;}
+
+
+.ft_ico:hover{
+			opacity:0.4;
+		}

@@ -1,0 +1,38 @@
+@import url('fonts/fonts.css');
+@import url('reset1.css');
+
+/* General Demo Style */
+body{
+	background: #ddd;
+	color: rgba(255,255,255,1);
+	
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+/*.clr{
+	clear: both;
+}*/
+
+@-webkit-keyframes appear{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@-moz-keyframes appear{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="Description" content="Techtix :One of the Largest Techno-Management Fest in India" />
+<meta name="Keywords" content="Techtix :One of the Largest Techno-Management Fest in India, Kalyani Government College(KGEC), technical fest, techfest, 2013, Kalyani, KGEC, 
+   Government Engineering College, WBUT, events, workshops, guests, lectures, robotics, robotix, puzzle, engineering,exhibitions, my KGEC, sponsors, management, 
+   think, create, enjoy, April 12-13" />
+<meta name="Author" content="Techtix 2k13" />
+<meta property="og:title" content="Techtix 2k13" />
+<meta property="og:url" content="http://www.tchtix.com" />
+<meta property="og:image" content="http://tchtix.com/logo/techtix_logo.png" />
+<meta property="og:description" content="Techtix :One of the Largest Techno-Management Fest in India" />
+
+<meta name=”robots” content=”all, follow” />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="favicon.ico" />
+
+    
+
+<style>
+html, body {
+  height:100%;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#map_canvas {
+  height: 100%;
+  border: #666 thin;
+  margin-left:8%;
+  margin-right:8%;
+}
+
+/*@media print {
+  html, body {
+    height: auto;
+  }
+
+  #map_canvas {
+    height: 650px;
+  }*/
+
+	</style>
+ <script>
+      function initialize() {
+        var mapOptions = {
+          zoom: 14,
+          center: new google.maps.LatLng(22.99045, 88.45027),
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById('map_canvas'),
+            mapOptions);
+      }
+
+      function loadScript() {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+            'callback=initialize';
+        document.body.appendChild(script);
+      }
+
+      window.onload = loadScript;
+    </script>
+    
+
+</head>
+<body>
+
+       
+    <div id="map_canvas"></div>
+   
+  
+
+ 
+
+    
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ft_name a:link{
+	text-decoration:none;
+	color: #000;
+	}
+	.ft_name a:visited{
+	text-decoration:none;
+	color: #000;
+	}
+	.ft_name a:active{
+	text-decoration:none;
+	color: #000;
+	}
+	
+
+.ft_name a:hover { 
+color: #97F0EE;}
+
+
+.ft_ico:hover{
+			opacity:0.4;
+		}
+#sitemap tr td ul li a{
+	text-transform:none;
+	color:#000;
+	text-decoration:none;
+}
+#sitemap tr td ul li a:hover{
+	color:#0066FF;
+	text-shadow:1px 1px 1px #CCCCCC;
+}
+#sitemap tr td a{
+	text-transform:none;
+	color: #003;
+	text-decoration:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+}
+#sitemap tr td a:hover{
+	color: #EBEBEB;
+	font-family:Tahoma, Geneva, sans-serif;
+	
+
+
+		
+}
+#sitemap tr td{
+padding-left:40px; border-radius:4px; 
+background:url(images/bg.png);
+ background-repeat:repeat;
+ box-shadow:0.5px 0.5px 0.5px #0816b4;
+opacity:0.9;}
+#sitemap tr td:hover{
+	background:#0a62d9;
+		
+}
+#sitemap{
+	
+	background:#0a62d9;
+	float:left;
+	text-align:left;
+	
+}
+
+

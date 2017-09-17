@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="css/menu-style.css" type="text/css" charset="utf-8"/>
+        <script type="text/javascript" src="jquery-1.3.2.js"></script>
+    </head>
+    <style>
+        body{
+        
+            font-family:Arial;
+            height:2000px;
+			
+        }
+        .header
+        {
+            width:600px;
+            height:56px;
+            position:absolute;
+            top:0px;
+            left:25%;
+            
+        }
+        a.back{
+            width:256px;
+            height:73px;
+            position:fixed;
+            bottom:15px;
+            right:15px;
+           
+        }
+        .scroll{
+            width:133px;
+            height:61px;
+            position:fixed;
+            bottom:15px;
+            left:150px;
+           
+        }
+        .info{
+            text-align:right;
+
+        }
+    </style>
+    <body>
+      
+        
+        <ul id="navigation">
+            <li class="home"><a href="../../home.php" title="Home" target="_parent"><img src="icon/home.png" width="30px" height="30px"  style="padding:5px;"/><span style="float:right; padding-right:40px; padding-top:10px;">HOME</span></a></li>
+            <li class="about"><a href="../robotics.php" title="ROBOTICS" target="_parent"><img src="icon/robotix_menu.png" width="30px" height="30px"  style="padding:5px;"/><span style="float:right; padding-right:40px; padding-top:10px;">ROBOTICS</span></a></li>
+            <li class="search"><a href="../creative mind.php" title="CREATIVE MIND" target="_parent"><img src="icon/creative mind_menu.png" width="35px" height="30px"  style="padding:5px;"/><span style="float:right; padding-right:40px; padding-top:10px;">CREATIVE MIND</span></a></li>
+            <li class="photos"><a href="../gaming.php" title="GAMING" target="_parent"><img src="icon/gaming_menu.png" width="40px" height="30px"  style="padding:5px;"/><span style="float:right; padding-right:40px; padding-top:10px;">GAMING</span></a></li>
+            <li class="rssfeed"><a href="../engineering.php" title="ENGINEERING" target="_parent"><img src="icon/engineering_menu.png" width="40px" height="30px"  style="padding:5px;"/><span style="float:right; padding-right:40px; padding-top:10px;">ENGINEERING</span></a></li>
+            
+            <li class="podcasts"><a href="http://www.tchtix.com/events/lectures.php" title="WORKSHOP" target="_parent"><img src="icon/workshop_menu.png" width="35px" height="30px"  style="padding:5px;"/><span style="float:right; padding-right:40px; padding-top:10px;">LECTURES</span></a></li>
+            
+        </ul>
+
+   
+
+        <script type="text/javascript">
+            $(function() {
+                $('#navigation a').stop().animate({'marginLeft':'-85px'},1000);
+
+                $('#navigation > li').hover(
+                    function () {
+                        $('a',$(this)).stop().animate({'marginLeft':'-2px'},200);
+                    },
+                    function () {
+                        $('a',$(this)).stop().animate({'marginLeft':'-85px'},200);
+                    }
+                );
+            });
+        </script>
+    </body>
+</html>
